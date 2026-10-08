@@ -28,8 +28,8 @@ enabled = true
 
 [[routes]]
 # Refer to https://developers.cloudflare.com/workers/wrangler/configuration/#routes
-pattern = "okquant.com/pb/*"
-custom_domain = true
+# pattern = "okquant.com/pb/*"
+# custom_domain = true
 
 [[kv_namespaces]]
 binding = "PB"  # do not touch this
